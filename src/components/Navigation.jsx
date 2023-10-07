@@ -29,7 +29,7 @@ const Navigation =()=> {
             </div>
             <div className="second">
          
-                <HashLink to="#profil" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
+                <HashLink to="#profil" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
 
                     <p>Profil</p>
                 </HashLink>
