@@ -59,8 +59,10 @@
         position: fixed;
         background: #0D192D;
         width: 100%;
-        transform: translate(0px, 290px);
-        height: 100vh;
+        top:50%;
+        right: 50%;
+        transform: translate(50%,-50%);
+        height: 100%;
         color: black;
         display: inline;
         transition: 0.5ms;
@@ -74,7 +76,9 @@
         background: white;
         color: white;
         width: 90vw;
-        transform: translate(420px, 290px);
+        top:50%;
+        right: -50%;
+        transform: translate(50%,-50%);
         height: 100vh;
         color: black;
         display: inline;
