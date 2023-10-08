@@ -32,6 +32,7 @@
 
 #profil {
     color: black;
+    background: white;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -84,6 +85,7 @@
 
 #contact {
     color: black;
+    background: white;
     padding: 25px 0px;
     display: flex;
     justify-content: center;
