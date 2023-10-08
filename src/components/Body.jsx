@@ -24,7 +24,7 @@ const Body =()=> {
             <section id="services">
                 <div className="card">
                     <h3>Jasa Service AC </h3>
-                    <p>Dengan menggunakan jasa service AC Sejasa.com, Anda dapat memesan layanan untuk kapan saja tergantung kebutuhan. Teknisi service AC kami telah terverifikasi dan terdapat garansi perbaikan dengan fitur Full Protection hingga 60 hari setelah pengerjaan jasa.</p>
+                    <p>Dengan menggunakan jasa service AC Muda Karya, Anda dapat memesan layanan untuk kapan saja tergantung kebutuhan. Teknisi service AC kami telah terverifikasi dan terdapat garansi perbaikan dengan fitur Full Protection hingga 60 hari setelah pengerjaan jasa.</p>
 
                 </div>
                 <div className="card">
@@ -49,7 +49,7 @@ const Body =()=> {
                 </div>
                 <div className="card">
                     <h3>Perbaikan Semua Brand AC</h3>
-                    <p>Teknisi AC di Sejasa juga dapat memperbaiki AC berbagai tipe dan merek, kami melayani service AC Panasonic, service AC Daikin, service AC Sharp, service AC Fujitsu, service AC Samsung, hingga service AC Changhong.</p>
+                    <p>Teknisi AC di Muda Karya juga dapat memperbaiki AC berbagai tipe dan merek, kami melayani service AC Panasonic, service AC Daikin, service AC Sharp, service AC Fujitsu, service AC Samsung, hingga service AC Changhong.</p>
 
                 </div>
 
