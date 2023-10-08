@@ -1,8 +1,8 @@
 
-import "../style/body.css"
-import contoh from "../assets/hero1.png"
-import { HashLink as Link} from "react-router-hash-link"
+import "../style/body.css";
+import { HashLink as Link} from "react-router-hash-link";
 import { BiLogoWhatsapp, BiLogoGmail } from "react-icons/bi";
+import { data } from "./data-slider";
 
 const Body =()=> {
     return (
@@ -51,6 +51,17 @@ const Body =()=> {
                     <h3>Perbaikan Semua Brand AC</h3>
                     <p>Teknisi AC di Sejasa juga dapat memperbaiki AC berbagai tipe dan merek, kami melayani service AC Panasonic, service AC Daikin, service AC Sharp, service AC Fujitsu, service AC Samsung, hingga service AC Changhong.</p>
 
+                </div>
+
+            </section>
+            <section id="gallery">
+                <h1>Gallery</h1>
+                <div className="slider">
+                    {data.map(data=> (
+                        <>
+                            <img src={data.image} />
+                        </>
+                    ))}
                 </div>
 
             </section>

@@ -83,6 +83,28 @@
     font-size: 24px;
 }
 
+#gallery {
+    color: black;
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#gallery .slider {
+    background:#0D192D ;
+    width:90%;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.slider img {
+    margin: 0px 5px;
+}
+
 #contact {
     color: black;
     background: white;
