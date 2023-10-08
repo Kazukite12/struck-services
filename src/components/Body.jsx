@@ -58,11 +58,11 @@ const Body =()=> {
                 <h1>Kontak Kami</h1>
                 <div className="contact-card">
                     <BiLogoWhatsapp className="icon"/>
-                    <p>085155561783</p>
+                    <a href="https://wa.me/+6281927098771" target="_blank">081927098771</a>
                 </div>
                 <div className="contact-card">
                     <BiLogoGmail className="icon"/>
-                    <p>MudaKarya@gmail.com</p>
+                    <a href="mailto:karirkita1@gmail.com">karirkita1@gmail.com</a>
                 </div>
             </section>
         </div>
