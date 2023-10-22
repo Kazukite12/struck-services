@@ -1,12 +1,9 @@
 
 import "../style/body.css";
 import { HashLink, HashLink as Link} from "react-router-hash-link";
-import { BiLogoWhatsapp, BiLogoGmail } from "react-icons/bi";
 import hero from "../assets/UI.png";
-import hero2 from "../assets/verification.png"
-import color from "../assets/Colour.png";
+import hero2 from "../assets/Verification.png"
 import { dataProduct } from "./data-product";
-import search from "../assets/Search.png";
 import { DataFAQ } from "./data-faq";
 import { useState } from "react";
 import { dataBenefit } from "./data-benefit";
