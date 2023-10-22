@@ -10,13 +10,36 @@
 
 .fixed {
     position: fixed !important;
-    background:#0D192D ;
+    background:var(--Background);
 }
 
 .nav-container .second {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 60%;
+    align-items: center;
+}
+
+.second *:hover {
+    text-decoration: underline;
+
+}
+
+.second a:nth-last-child(1) {
+    background: var(--Accent);
+    background: var(--Secondary);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.second a:nth-last-child(1):hover {
+    cursor: pointer;
+    background: var(--Accent);
+    transition: 0.5s;
+}
+.second p {
+    font-weight: 300;
 }
 
 .burger .stripe {
@@ -57,7 +80,7 @@
     
     .side-bar {
         position: fixed;
-        background: #0D192D;
+        background: var(--Secondary);
         width: 100%;
         top:50%;
         right: 50%;

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "../style/navigation.css";
 import { HashLink } from 'react-router-hash-link';
+import { Link } from "react-router-dom";
 
 const Navigation =()=> {
 
@@ -23,24 +24,35 @@ const Navigation =()=> {
     return(
         <div className={navbar ? "nav-container fixed":"nav-container"}>
             <div className="main">
-                <HashLink to="#top" smooth>
-                    <h2>Muda Karya</h2>
+                <HashLink to="/#top">
+
+                    <h2>STRUCK SERVICES</h2>
                 </HashLink>
             </div>
             <div className="second">
          
                 <HashLink to="#profil" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
 
-                    <p>Profil</p>
+                    <p>Tentang Kami</p>
                 </HashLink>
-                <HashLink to="#services" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+                <HashLink to="/#services" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
 
-                    <p>Service AC</p>
+                    <p>Produk</p>
                 </HashLink>
-                <HashLink to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
+                <HashLink to="/#FAQ" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
 
-                    <p>Hubungi Kami</p>
+                    <p>FAQ</p>
                 </HashLink>
+                <HashLink to="/#Footer" scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+
+                    <p>Kontak</p>
+                </HashLink>
+                <Link to="/Portofolio">
+                
+                    <p>Portofolio</p>
+                </Link>
+             
+                <a href="https://wa.me/+6285155341765" target="_blank">Konsultasi Gratis</a>
             </div>
             <div className="burger" onClick={()=>setShowSideBar(true)}>
                 <div className="stripe"></div>
@@ -54,16 +66,19 @@ const Navigation =()=> {
                 </div>
                 <div className="list">
                 <HashLink to="#profil" smooth  onClick={()=>setShowSideBar(false)}>
-
-                <p>Profil</p>
+                <p>About Us</p>
                 </HashLink>
                 <HashLink to="#services" smooth  onClick={()=>setShowSideBar(false)}>
 
-                <p>Service AC</p>
+                <p>Product</p>
                 </HashLink>
                 <HashLink to="#contact" smooth  onClick={()=>setShowSideBar(false)}>
 
-                <p>Hubungi Kami</p>
+                <p>FAQ</p>
+                </HashLink>
+                <HashLink to="#contact" smooth  onClick={()=>setShowSideBar(false)}>
+
+                <p>Contact</p>
                 </HashLink>
                 </div>
             </div>
