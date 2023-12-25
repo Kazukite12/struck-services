@@ -23,9 +23,4 @@ export const DataFAQ = [
         Question:"Apakah harga pembuatan website sudah include hosting dan domain?",
         Answer:"harga belum termasuk nama domain ya, karena kami akan menyesuaikan dengan nama domain yang diinginkan client, dan tentunya harganya juga bervariatif, namun dengan harga tersebut sudah termasuk hosting SSL/HTTPS standar",
     },
-    {
-        id:5,
-        Question:"Apakah jika saya sudah memiliki hosting, harganya bisa lebih murah?",
-        Answer:"rasah kakean takon",
-    },
 ]
